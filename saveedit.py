@@ -145,7 +145,7 @@ while keepEditing == "y":
     
     keepEditing = input("Keep editing? y/n ")
 
-if input("Export? y/n") == "y":
+if input("Export? y/n ") == "y":
     if input("Export to JSON? y/n ") == "y":
         output = open(f"{output_path}output_edited.json", "x")
         output.write(json.dumps(fileData))
@@ -153,4 +153,4 @@ if input("Export? y/n") == "y":
     else:
         output = open(f"{output_path}outputedited.txt", "x")
         output.write(lz.compressToBase64(json.dumps(fileData)))
-        print(f"Added file to {output_path}output_edited.txt")
+        print(f"Added file to {output_path}output_edited.rpgmaker")
