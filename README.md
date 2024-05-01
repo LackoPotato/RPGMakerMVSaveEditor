@@ -10,7 +10,8 @@ python3 path/to/saveedit.py -input path/to/save/file -output output/path/directo
 
 This program does not include the ability to decode variables and item names like SaveEditOnline sadly.
 
-This is mainly done as a programming challenge and there should be better websites in order to accomplish this same task.
+This is mainly done as a programming challenge and there should may be better websites in order to accomplish this same task.
 
-# I am unsure if this program works for other RPGMaker versions as I only have OMORI to test this program on.
-If you want to edit OMORI save file switches use this website (https://goats.dev/omori/) in order to find the variable/switch ID.
+# Dependents
+Depends on LZstring - https://pypi.org/project/lzstring/
+
