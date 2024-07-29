@@ -16,4 +16,5 @@ Like actually, this editor is clunky. But hey, it just works :tm:.
 
 # Dependents
 Depends on LZstring - https://pypi.org/project/lzstring/
+
 Also needs Python - https://www.python.org/
